@@ -14,6 +14,7 @@
 
 ##### }
 
-###### 
+###### Fonksiyonlar mainde çağırılmazsa yürütülmezler.
+###### Ayrıca C'de preinclude etmek gerekir fonksiyonları örneğin
 
 
