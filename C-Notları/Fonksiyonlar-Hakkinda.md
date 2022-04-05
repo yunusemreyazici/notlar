@@ -85,5 +85,6 @@ double tersToplam(int mdegeri, int ndegeri)
     return dondurucu;
 }
 ```
+###### Bir fonksiyonu çağırıp üzerinde işlem yaptığımız değişkenin değerini tutmak istiyorsak static olarak tanımlamlayız değişkeni.
 
 
