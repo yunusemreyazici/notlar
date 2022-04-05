@@ -4,8 +4,8 @@ Vs code m1 macde c derlemek için
 - c/c++ ,code lldb eklentisi yüklenmeli visual stdio code'a.
 - derlediğin koddaki launch.json dosyasını type lldb yapmak.
 
-- Vs Stdio Code Kısayolları -
-Kısayol Tuşu	Açıklama
-CMD+Shift+Nokta 	Gizli dosyaları gösterir gizler.
-Shift + Option + F	Kodu düzenli hale getirir.
-fn + control + space	Autocomplete
+#- Vs Stdio Code Kısayolları -
+## Kısayol Tuşu	Açıklama
+### CMD+Shift+Nokta 	Gizli dosyaları gösterir gizler.
+#### Shift + Option + F	Kodu düzenli hale getirir.
+#### fn + control + space	Autocomplete
