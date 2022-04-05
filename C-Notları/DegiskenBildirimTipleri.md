@@ -30,10 +30,21 @@ char k;
 ###### c.c dosyası:
 
 ##### ________________
-#### Statik bildirim:
+#### Statik bildirim:
 ###### Statik değişkenler normal değişkenler gibi programın yürütülmesi boyunca bellekte yer işgal ederler.ancak genel değişkenler gibi fonksiyonlarca tanınmazlar. Bu tip değişkenler özellikle açılımlarla ilgili veya kütüphaneye koymak amacıyla programcı tarafından yazılan fonksiyonların yazımında yararlıdır.
 ##### __________________
 
+
+##### auto değişken bildirimi:
+
+###### İçinde bulunduğu fonksiyon kullanıldığı sürece bellekte yer kaplıyor.kullanılma bittiğinde bellekteki yeri serbest kalır. Yani değeri saklanmaz.
+###### ————————————
+##### Register tipli değişken bildirimi.
+###### Sadece int ve char için kullanılır.
+###### —————————————
+##### Volatile  değişken bildirimi:
+
+###### Const: bir değişkenin değerini değişmez olarak nitelendiririz.
 
 
 
