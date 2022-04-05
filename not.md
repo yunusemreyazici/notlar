@@ -5,7 +5,7 @@ Vs code m1 macde c derlemek için
 - derlediğin koddaki launch.json dosyasını type lldb yapmak.
 
 # - Vs Stdio Code Kısayolları -
-## Kısayol Tuşu	Açıklama
-### CMD+Shift+Nokta 	Gizli dosyaları gösterir gizler.
+#### Kısayol Tuşu	Açıklama
+#### CMD+Shift+Nokta 	Gizli dosyaları gösterir gizler.
 #### Shift + Option + F	Kodu düzenli hale getirir.
 #### fn + control + space	Autocomplete
