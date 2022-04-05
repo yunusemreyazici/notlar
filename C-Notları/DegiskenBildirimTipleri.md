@@ -20,4 +20,20 @@ char k;
 } 
 ```
 
+##### ————————————————————————————————————————————————————————
+##### Dışsal bildirim: (extern bildirim)
+###### A.c dosyası:
+###### int x;
+###### b.c dosyası:
+###### extern int x;
+
+###### c.c dosyası:
+
+##### ________________
+#### Statik bildirim:
+###### Statik değişkenler normal değişkenler gibi programın yürütülmesi boyunca bellekte yer işgal ederler.ancak genel değişkenler gibi fonksiyonlarca tanınmazlar. Bu tip değişkenler özellikle açılımlarla ilgili veya kütüphaneye koymak amacıyla programcı tarafından yazılan fonksiyonların yazımında yararlıdır.
+##### __________________
+
+
+
 
