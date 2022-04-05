@@ -1,19 +1,21 @@
 #### Fonksiyonlar Hakkında kısa kısa notlar..
 ###### - Fonksiyonlar mainde çağırılmazsa yürütülmezler.
 ###### - Örnek bir fonksiyon böyle yazılır.
-###### 
-##### alanHesapla(){
+
+``` 
+alanHesapla(){
 
 
-##### }
-###### 
+ }
+```
 ###### - Fonksiyon önüne geri dönüş tipine göre veritipi atanır.(Double,int,void vs..)
 ###### - geri dönüşsüz bir fonksiyonsa void olarak tanımlanmalıdır.
 ###### - Örnek:
-##### void geriDonumsuzFonksiyon(){
+``` 
+void geriDonumsuzFonksiyon(){
 
-##### }
-
+ }
+```
 ###### Fonksiyonlar mainde çağırılmazsa yürütülmezler.
 ###### Ayrıca C'de preinclude etmek gerekir fonksiyonları örneğin terstoplam.c dosyasına bakılabilir. mainin üstünde fonksiyon tekrar tanımlanmalıdır yani...
 ```ckodu
