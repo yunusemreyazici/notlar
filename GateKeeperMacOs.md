@@ -12,7 +12,7 @@ To disable Gatekeeper, follow these steps:
     Hit Enter and type your admin password.
     Hit Enter again. 
      
-
+!
     Now, the Anywhere option should be available under the Allow apps downloaded from section of System Preferences > Security & Privacy > General. From here, you can change the setting to loosen or tighten Gatekeeper security whenever you want. But please remember that sidestepping any of macOS’s built-in safety measures comes with risks.
     Enable Gatekeeper With Terminal
 
@@ -26,10 +26,9 @@ To disable Gatekeeper, follow these steps:
 
         Hit Enter and enter your admin password if required.
         Hit Enter again. 
-     
-     
-    Check Gatekeeper Status With Terminal
-
+        !
+    Check Gatekeeper Status With Terminal:
+!
     If you’re unsure about the current status of Gatekeeper and wish to double-check that the desired changes have occurred, you can do so with another Terminal command.
 
     To check Gatekeeper status, follow these steps:
