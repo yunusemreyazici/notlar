@@ -7,4 +7,4 @@
 ## FTP-SFTP
 
 ###### FTP-SFTP kısmında ise işletim sistemi ile direk bağlanacağınız gibi önerim Transmit uygulamasıdır.
-###### Transmit ücretli bir uygulama 45 USD karşılığı sahip olabilirsiniz veya adı lazım olmayan 2 sitenin herhangibi birisinden tam sürümünü download edebilirsiniz.(Tavsiye etmiyorum,Lütfen uygulamayı sitesinden satın alın)
+###### Transmit ücretli bir uygulama 45 USD karşılığı sahip olabilirsiniz veya adı lazım olmayan 2 sitenin herhangi birisinden tam sürümünü download edebilirsiniz.(Tavsiye etmiyorum,Lütfen uygulamayı sitesinden satın alın)
