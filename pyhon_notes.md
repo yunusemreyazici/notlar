@@ -10,3 +10,9 @@ pip freeze > requirements.txt
 cat requirements.txt
 python -m pip install -r requirements.txt
 ```
+
+#### Virtual Env oluşturmak
+```
+python3 -m venv emreOrtami
+source emreOrtami/bin/activate
+```
