@@ -9,6 +9,12 @@
 #### ancak günümüzde birçok programlama dili ve platform tarafından kullanılıyor.
 #### ÖRN: PHP-.NET-JAVA-....
 #### Json ile mobil uygulamalar ve masaüstü yazılımları gibi farklı platformlar arasında veri taşınabilir.
-####
-
 ![](./img/jsonVeri.png)
+## JSON Veri Tipleri 
+#### String(Metin)
+#### Number(Sayı)
+#### Boolean(true/false)
+#### Array(dizi)
+#### Object (Nesne)
+#### Null
+
