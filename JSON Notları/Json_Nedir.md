@@ -16,5 +16,5 @@
 #### Boolean(true/false)
 #### Array(dizi)
 #### Object (Nesne)
-#### Null
+##### Null
 
