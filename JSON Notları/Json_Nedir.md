@@ -78,6 +78,55 @@
             "adsoyad":"Burak Yılmaz",
             "numara":378
         }
+    ],
+    "dersler": [
+        {
+            "dersAdi": "Programlama",
+            "saat": 5
+        },
+        {
+            "dersAdi": "Veritabanı",
+            "saat":4
+        }
     ]
 }
 ```
+#### yani şuan dosyamızın içerisinde üç tane nesne türünden veri,iki tane de dizi türünden veri bulunuyor.
+#### dizi içerisindeki elemanların hepsi aynı isim değer çiftine sahip olmak zorunda değil.
+
+```
+{
+    "okul": "marmara üniversitesi",
+    "bolum":"Bilgisayar Mühendisliği",
+    "donem":"2007-2011",
+
+    "ogrenciler":[
+        {
+            "adsoyad": "Yücel Alkan",
+            "numara": 123,
+            "basari":"Okul Birinciliği"
+        },
+        {
+            "adsoyad":"Ahmet Balcı",
+            "numara": 578,
+            "hastalık":"Astım"
+        },
+        {
+            "adsoyad":"Burak Yılmaz",
+            "numara":378
+        }
+    ],
+    "dersler": [
+        {
+            "dersAdi": "Programlama",
+            "saat": 5
+        },
+        {
+            "dersAdi": "Veritabanı",
+            "saat":4
+        }
+    ]
+}
+```
+#### yani dizi içerisindeki elamanların hepsi aynı isim değer çiftine sahip olmak zorunda değil ve genişletilmesi oldukça kolay JSON tercih edilme sebeplerinden biriside aslında bu.
+#### Özetleyelim aynı dosyada hem nesne türünden veri tutabiliyoruz hem dizi türünden veri tutabiliyoruz. Bu şekilde JSON kullanımı oldukça kolay.
