@@ -10,6 +10,5 @@
 #### ÖRN: PHP-.NET-JAVA-....
 #### Json ile mobil uygulamalar ve masaüstü yazılımları gibi farklı platformlar arasında veri taşınabilir.
 ####
-<img src="./img/jsonVeri.png" width = "400" height = "300" align = "center">
-#### lsdldfslö
-dfsf
+
+![](./img/jsonVeri.png)
