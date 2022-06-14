@@ -1,5 +1,5 @@
 ## Mac Terminal Notları
-##### pwd // bulunulan dizini gösterir.
+- pwd // bulunulan dizini gösterir.
 #### cd .. // istenilen dizine gider.
 #### touch // dosya oluşturur.
 #### ls  // dizindeki dosyaları listeler.
