@@ -13,10 +13,10 @@
 ###### 
 
 ### Macports yükleme 
-##### 1- Xcode Yükleyin.
-##### sudo xcodebuild -license
-##### xcode-select --install
-##### Macports dmg uzantılı paketi yükleyin.
+#### 1- Xcode Yükleyin.
+#### sudo xcodebuild -license
+#### xcode-select --install
+#### Macports dmg uzantılı paketi yükleyin.
 ##### sudo port -v selfupdate //ile macports güncellemelerini kontrol edin.
 ##### Macports'unuz hazır.
 
