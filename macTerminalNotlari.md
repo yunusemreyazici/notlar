@@ -10,7 +10,11 @@
 ###### ./runme     
 
 ### Mac'lerde path ekleme 
-###### 
+###### echo $SHELL //terminale girdikten sonra hangi shell kullandığınızı bulun m1 ise zsh olur bu ve ben buna göre anlatacağım.
+###### nano $HOME/.zprofile //açın dosyayı
+###### export PATH="$PATH:[eklemek istediğiniz path]" // yeni satıra girin
+###### export PATH="$PATH:$HOME/FlutterDev/flutter/bin" // örneğin flutter pathım benim bu şekilde.
+###### contol+x ile y enter diyip saveleyin. terminali kapatıp açtığınızda pathleriniz tanınacaktır.
 
 ### Macports yükleme 
 #### 1- Xcode Yükleyin.
