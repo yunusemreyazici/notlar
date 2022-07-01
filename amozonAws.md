@@ -29,5 +29,16 @@ sudo apt update && sudo apt upgrade
 
 #### Diğer ubuntu komutları
 ```
+sudo apt update && sudo apt upgrade
+
+screen -ls
+screen -d 
+screen -r
+
+nano 
+wget
+touch
+nano
+apt install paket_adi
 
 ```
