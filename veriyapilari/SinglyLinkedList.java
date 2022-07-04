@@ -113,37 +113,59 @@ public class SinglyLinkedList {
             previous.next=current.next;
         }
     }
+
+    public boolean find(ListNode head,int searchKey){
+        if(head==null){
+            return false;
+        }
+        ListNode current =head;
+        while (current!=null) {
+            if (current.data== searchKey) {
+                return true;
+            }
+            current=current.next;
+        }
+        return false;
+    }
     public static void main(String[] args) {
         SinglyLinkedList sll = new SinglyLinkedList();
-        // sll.head = new ListNode(10);
-        // ListNode second = new ListNode(1);
-        // ListNode third = new ListNode(8);
-        // ListNode fourth = new ListNode(11);
+        //sll.head = new ListNode(10);
+        ListNode head = new ListNode(10);
+        ListNode second = new ListNode(1);
+        ListNode third = new ListNode(8);
+        ListNode fourth = new ListNode(11);
         // now we will connect them together to from a chain
-        // sll.head.next = second; // 10 --> 1
-        // second.next = third; // 10 --> 1 --> 8
-        // third.next = fourth; // 10 --> 1 --> 8 --> 11 --> null
-        // System.out.println("Length is : " + sll.length());
-        // sll.insertFirst(11);
-        // sll.insertFirst(12);
-        // sll.insertFirst(31);
-        // sll.insertLast(1);
-        // sll.insertLast(2);
-        // sll.insertLast(3);
+        //sll.head.next = second; // 10 --> 1
+        head.next=second;
+        second.next = third; // 10 --> 1 --> 8
+        third.next = fourth; // 10 --> 1 --> 8 --> 11 --> null
+        System.out.println("Length is : " + sll.length());
+        sll.display();
+        sll.insertFirst(11);
+        sll.insertFirst(12);
+        sll.insertFirst(31);
+        sll.insertLast(1);
+        sll.insertLast(2);
+        sll.insertLast(3);
+        sll.display();
+        // sll.insert(1,3); // 3 ->null
+        // sll.insert(2,5); // 3-> 5->null
+        // sll.insert(1,2); // 2 ->3 ->5 ->null
+        // sll.insert(1,2); // 2 ->2 ->3 ->5 ->null
+        // sll.insert(2,4); // 2 ->4 ->2 ->3 ->5 ->null
+        // sll.insert(5,7); // 2 ->4 ->2 ->3 ->5 ->7 ->null
         // sll.display();
-        sll.insert(1,3); // 3 ->null
-        sll.insert(2,5); // 3-> 5->null
-        sll.insert(1,2); // 2 ->3 ->5 ->null
-        sll.insert(1,2); // 2 ->2 ->3 ->5 ->null
-        sll.insert(2,4); // 2 ->4 ->2 ->3 ->5 ->null
-        sll.insert(5,7); // 2 ->4 ->2 ->3 ->5 ->7 ->null
-        sll.display();
         // System.out.println(sll.deleteFirst().data);
         // System.out.println(sll.deleteFirst().data);
         // System.out.println(sll.deleteFirst().data);
         // System.out.println(sll.deleteFirst().data);
-        sll.delete(1);
-        sll.delete(5);
-        sll.display();
+        // sll.delete(1);
+        // sll.delete(5);
+        // sll.display();
+        if(sll.find(head, 1)){
+            System.out.println("Search Key found");
+        }else{
+            System.out.println("Search Key not found");
+        }
     }
 }
