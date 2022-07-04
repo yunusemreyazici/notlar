@@ -6,4 +6,4 @@
 - Visit https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d&index=1
 - Okay Let's go!
 - We first talk about the Singly Linked List 
-##### Singly linked List is a data structure used for storing collection of nodes and has following properties
+#### Singly linked List is a data structure used for storing collection of nodes and has following properties
