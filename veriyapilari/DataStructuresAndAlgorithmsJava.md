@@ -35,5 +35,6 @@ public class ListNode{
 ```
 So if see the graphical representation of it looks something like this 
 <img src="./img/graphicalListNode.jpg">
+![](./img/1.png)
 > the ListNode is having a data  
 
