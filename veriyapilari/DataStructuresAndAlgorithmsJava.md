@@ -13,3 +13,28 @@ Singly linked List is a data structure used for storing collection of nodes and 
 - First node is the head node.
 - Last node has data and points to null.
 
+- ( I'll add image in the other time)
+#
+Implementation of a ListNode in Singly Linked List
+- Now we will see the implementation of the ListNode in Singly Linked List.
+-
+```
+// Generic Type 
+// The list node is holding the data which is Generic Type
+public class ListNode<T>{
+    private T data;
+    private ListNode<T> next;
+}
+
+// Integer Type 
+// This snippetis you can see that it is holding the data of integer type data
+public class ListNode{
+    private int data;
+    private ListNode next;
+}
+```
+- So if see the graphical representation of it looks something like this 
+![]
+(/img/graphicalListNode.jpg)
+-the ListNode is having a data  
+
