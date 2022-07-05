@@ -12,8 +12,7 @@ Singly linked List is a data structure used for storing collection of nodes and 
 - A node has data and reference to next node in a list.
 - First node is the head node.
 - Last node has data and points to null.
-
-- ( I'll add image in the other time)
+![](./img/0.png)
 #
 Implementation of a ListNode in Singly Linked List
 - Now we will see the implementation of the ListNode in Singly Linked List.
