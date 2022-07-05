@@ -33,8 +33,7 @@ public class ListNode{
     private ListNode next;
 }
 ```
-So if see the graphical representation of it looks something like this 
-<img src="./img/graphicalListNode.jpg">
+- So if see the graphical representation of it looks something like this 
 ![](./img/1.png)
 > the ListNode is having a data  
 
