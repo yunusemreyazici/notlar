@@ -34,7 +34,6 @@ public class ListNode{
 }
 ```
 So if see the graphical representation of it looks something like this 
-![](/img/graphicalListNode.jpg)
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
+![](./img/graphicalListNode.jpg)
 > the ListNode is having a data  
 
