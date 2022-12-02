@@ -1,26 +1,29 @@
 ## suggestions:
 
 
-### 1- close screen time on the settings. Because this is battery 
+### 1 - Close screen time on the settings. Because this is battery 
 exploiter.
 
+### 2 - Close schedule activity's
 
-### 2- close schedule activity's
-
-##### - list your schedule activity
+##
+- list your schedule activity
 ``
  pmset -g sched
 ``
-##### -  cancel command
+##
+-  cancel command
 ``
 sudo pmset schedule cancelall 
 ``
-### 3- And then change hibernation mode from 3 to 25 via terminal
+### 3 - And then change hibernation mode from 3 to 25 via terminal
 
 ``
 sudo pmset -a hibernatemode 25
 ``
-##### Also disable screen time because this service constantly wakes up 
+##
+
+Also disable screen time because this service constantly wakes up 
 your macbook.
 
 Instant wake won't be available, but since the ssd is fast anyway few more 
