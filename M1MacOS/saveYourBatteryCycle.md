@@ -7,11 +7,11 @@ exploiter.
 
 ### 2- close schedule activity's
 
-#### - list your schedule activity
+##### - list your schedule activity
 ``
  pmset -g sched
 ``
-#### cancel command
+##### -  cancel command
 ``
 sudo pmset schedule cancelall 
 ``
@@ -20,8 +20,8 @@ sudo pmset schedule cancelall
 ``
 sudo pmset -a hibernatemode 25
 ``
-Also disable screen time because this service constantly wakes up your 
-macbook.
+##### Also disable screen time because this service constantly wakes up 
+your macbook.
 
 Instant wake won't be available, but since the ssd is fast anyway few more 
 seconds when opening the lid will be nothing compared to losing so much 
