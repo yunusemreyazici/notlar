@@ -1,11 +1,9 @@
-## suggestions:
+## Suggestions:
 
 
-### 1 - Close screen time on the settings. Because this is battery 
-exploiter.
-
+### 1 - Close screen time on the settings. Because this is battery exploiter.
+##
 ### 2 - Close schedule activity's
-
 ##
 - list your schedule activity
 ``
@@ -17,7 +15,6 @@ exploiter.
 sudo pmset schedule cancelall 
 ``
 ### 3 - And then change hibernation mode from 3 to 25 via terminal
-
 ``
 sudo pmset -a hibernatemode 25
 ``
